@@ -1,0 +1,70 @@
+body{
+        margin:0;
+        padding:0;
+        background: url(/assets/img/bg.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover; 
+        -moz-background-size: cover; 
+        -o-background-size: cover; 
+        background-size: cover;
+}
+
+h1{
+    text-align: center;
+    padding: 30px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 70px;
+}
+
+#result{
+    text-align: center;
+    padding: 50px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+/* @media screen and (min-width: 360px){
+    img{
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        width: 60%;
+        height: 60%;
+    }
+    .btn{
+        padding: 0px;
+    }
+}
+
+@media screen and (min-width: 540px){
+    img{
+        display: flex;
+        flex-direction: row;
+        margin-left: 50px;
+        width: 65%;
+        height: 65%;
+    }
+    .btn{
+        padding: 0px;
+    }
+} */
+
+
+.player{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    margin: auto;
+}
+
+.ia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    margin: auto;
+}
+
+button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}

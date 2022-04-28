@@ -1,0 +1,26 @@
+let player;
+let ia;
+
+let playerChoice;
+
+btnPierre.addEventListener('click', () => {
+    playerChoice = 'pierre';
+})
+
+
+
+2 joueurs (player et IA)
+player choisi parmi 3 choix (p, f et c)
+IA /////////////
+
+COMPARER PLAYERCHOICE AVEC IA
+si playerChoice == IA
+    result = 'égalité'
+
+sinon si playerChoice ==feuille et IAchoice == ciseaux
+    ou  playerChoice ==ciseaux et IAchoice == pierre
+        playerChoice ==pierre et IAchoice == feuille
+    result = 'défaite' 
+
+sinon
+    result = 'victoire'
